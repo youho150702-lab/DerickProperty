@@ -35,6 +35,7 @@ export interface BaseListing {
   price: number; // sale price (RM) or monthly rent (RM) for rentals; "from" price for new projects
   tags: string[]; // short chips shown on cards and hero
   images?: string[]; // paths inside /public (e.g. "/images/abc/1.jpg") or https URLs
+  heroImage?: string;
   connectivity?: Connectivity[];
   faqs?: Faq[];
   seoKeywords: string[];
