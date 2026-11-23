@@ -1,5 +1,5 @@
 export const WHATSAPP_NUMBER = "601162148584"; // no "+"
-export const SITE_NAME = "SJ Property Consultant";
+export const SITE_NAME = "DerickTan Property";
 export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://your-domain.vercel.app"
 ).replace(/\/$/, "");
