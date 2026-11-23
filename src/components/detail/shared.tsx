@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CATEGORIES } from "@/lib/categories";
 import type { Connectivity, Listing } from "@/data/types";
