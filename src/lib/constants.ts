@@ -6,8 +6,8 @@ export const SITE_URL = (
 
 /** Shown in the footer. Replace with your real details (REN/REA number is required for advertising). */
 export const AGENT = {
-  name: "Your Name",
-  registration: "REN 00000",
+  name: "Derick Tan",
+  registration: "REN 85479",
   company: "Your Company Sdn. Bhd. (000000-X)",
 };
 
