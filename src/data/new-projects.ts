@@ -27,7 +27,7 @@ export const newProjects: NewProjectListing[] = [
     price: 608800,
     tags: ["Freehold", "TOD / Walking to LRT & BRT"],
     images: [
-      "/Public/Image/Trybe-Residence-sj7-subang-jaya-entrance.jpg"],
+      "/Image/Trybe-Residence-sj7-subang-jaya-entrance.jpg"],
 
     developer: "Sime Darby Property (SJ7) Sdn Bhd",
     architect: "UIG Architects Sdn Bhd",
