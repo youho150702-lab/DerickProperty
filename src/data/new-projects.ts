@@ -26,8 +26,7 @@ export const newProjects: NewProjectListing[] = [
     tenure: "Freehold",
     price: 608800,
     tags: ["Freehold", "TOD / Walking to LRT & BRT"],
-    images: [
-      "/image/Trybe-Residence-sj7-subang-jaya-entrance.png"],
+
     heroImage: "/image/Trybe-Residence-sj7-subang-jaya-heroimage.png",
 
     developer: "Sime Darby Property (SJ7) Sdn Bhd",
@@ -47,6 +46,8 @@ export const newProjects: NewProjectListing[] = [
       { id: "type-a", name: "Type A", sizeSqft: 730, bedrooms: 2, bathrooms: 2, carparks: "1–2 Carparks", priceFrom: 608800 },
       { id: "type-b", name: "Type B", sizeSqft: 920, bedrooms: 3, bathrooms: 2, carparks: "2 Carparks", priceFrom: 800800 },
     ],
+        images: 
+      ["/image/Trybe-Residence-sj7-subang-jaya-entrance.png"],
 
     usps: [
       { title: "Master developer of Subang Jaya", description: "Built by Sime Darby Property, the township developer behind much of Subang Jaya." },
