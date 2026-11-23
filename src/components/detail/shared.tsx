@@ -71,14 +71,22 @@ interface ShellProps {
 /** Hero + two-column layout + sticky CTAs + final CTA, shared by every listing type. */
 export function DetailShell({ listing, heroTags, priceText, message, cta, secondary, cardNote, finalTitle, finalText, children }: ShellProps) {
   const cat = CATEGORIES[listing.type];
+  const heroImg = listing.heroImage ?? listing.images?.[0];
   return (
     <main>
       <section className="relative overflow-hidden bg-slate-900 text-white">
-        <div
-          aria-hidden
-          className="absolute inset-0 opacity-20"
-          style={{ backgroundImage: "repeating-linear-gradient(90deg, rgba(217,119,6,.6) 0 1px, transparent 1px 36px)" }}
-        />
+                {heroImg ? (
+          <>
+            <Image src={heroImg} alt="" fill priority sizes="100vw" className="object-cover" />
+            <div aria-hidden className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-slate-900/40" />
+          </>
+        ) : (
+          <div
+            aria-hidden
+            className="absolute inset-0 opacity-20"
+            style={{ backgroundImage: "repeating-linear-gradient(90deg, rgba(217,119,6,.6) 0 1px, transparent 1px 36px)" }}
+          />
+        )}
         <div className="relative mx-auto max-w-6xl px-5 py-16 md:py-24">
           <Link href={`/${cat.slug}`} className="text-sm text-slate-300 hover:text-white">
             All {cat.label.toLowerCase()}
