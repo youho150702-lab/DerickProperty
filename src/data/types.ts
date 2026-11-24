@@ -78,7 +78,7 @@ export interface NewProjectListing extends BaseListing {
   completion: string;
   maintenanceFee: string;
   greenCert?: string;
-  bookingFee: string;
+  bookingFee?: string;
   units: UnitType[];
   usps: Usp[];
   rebates: string[];

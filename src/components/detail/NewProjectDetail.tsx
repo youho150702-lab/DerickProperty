@@ -22,7 +22,7 @@ export function NewProjectDetail({ p }: { p: NewProjectListing }) {
     ["Expected completion", p.completion],
     ["Maintenance fee", p.maintenanceFee],
     ...(p.greenCert ? ([["Green certification", p.greenCert]] as [string, string][]) : []),
-    ["Booking fee", p.bookingFee],
+        ...(p.bookingFee ? ([["Booking fee", p.bookingFee]] as [string, string][]) : []),
   ];
 
   return (

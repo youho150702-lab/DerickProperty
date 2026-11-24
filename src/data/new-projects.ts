@@ -40,7 +40,6 @@ export const newProjects: NewProjectListing[] = [
     completion: "March 2031",
     maintenanceFee: "RM0.42 psf (including Sinking Fund)",
     greenCert: "GreenRE Silver Certification",
-    bookingFee: "RM3,000 (fully refundable with bank loan rejection letter)",
 
     units: [
       { id: "type-a", name: "Type A", sizeSqft: 730, bedrooms: 2, bathrooms: 2, carparks: "1–2 Carparks", priceFrom: 608800 },
@@ -113,7 +112,6 @@ export const newProjects: NewProjectListing[] = [
 
     faqs: [
       { question: "What is the starting price of Trybe Residences @ SJ7?", answer: "Type A (730 sq.ft., 2 bedrooms) starts from RM608,800 and Type B (920 sq.ft., 3 bedrooms) starts from RM800,800 (starting SPA prices). Final nett price depends on the unit, floor and the rebate package you choose. WhatsApp for the latest price list." },
-      { question: "How much is the booking fee and down payment?", answer: "The booking fee is RM3,000 and is fully refundable with a bank loan rejection letter. The balance of the down payment and loan margin depend on your bank approval and the payment schedule in the SPA. Message us for a personalised payment breakdown." },
       { question: "Is Trybe Residences freehold? What is the land title?", answer: "Yes. It is a Freehold development on Commercial Title, so ownership has no expiry date." },
       { question: "When is the expected completion date?", answer: "The expected completion is March 2031. Please refer to the SPA for the official delivery of vacant possession timeline." },
       { question: "How far is it from the LRT and BRT?", answer: "The project has a walkway link to USJ 7 Station, the LRT Kelana Jaya Line and BRT Sunway Line interchange, about 650m on foot. USJ Taipan LRT Station is about 500m away on foot." },
