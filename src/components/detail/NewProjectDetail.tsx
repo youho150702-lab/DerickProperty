@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { NewProjectListing } from "@/data/types";
 import { bedroomRange, sizeRange } from "@/data";
 import { fmtRM } from "@/lib/constants";
@@ -62,7 +63,20 @@ export function NewProjectDetail({ p }: { p: NewProjectListing }) {
         <div className="grid gap-6 sm:grid-cols-2">
           {p.units.map((u) => (
             <article key={u.id} className="flex flex-col rounded-2xl border border-slate-200 p-6">
-              <h3 className="font-display text-2xl font-semibold text-slate-900">{u.name}</h3>
+              <article key={u.id} className="flex flex-col rounded-2xl border border-slate-200 p-6">
+  {u.image && (
+    <div className="relative mb-5 aspect-[4/3] overflow-hidden rounded-xl bg-slate-50">
+      <Image
+        src={u.image}
+        alt={`${p.shortTitle} ${u.name} floor plan`}
+        fill
+        sizes="(min-width:640px) 400px, 100vw"
+        className="object-contain"
+      />
+    </div>
+  )}
+  <h3 className="font-display text-2xl font-semibold text-slate-900">{u.name}</h3>
+  <h3 className="font-display text-2xl font-semibold text-slate-900">{u.name}</h3>
               <p className="mt-1 text-slate-500">{u.sizeSqft} sq.ft.</p>
               <ul className="mt-4 space-y-1 text-sm">
                 <li>{u.bedrooms} Bedrooms, {u.bathrooms} Bathrooms</li>

@@ -42,8 +42,8 @@ export const newProjects: NewProjectListing[] = [
     greenCert: "GreenRE Silver Certification",
 
     units: [
-      { id: "type-a", name: "Type A", sizeSqft: 730, bedrooms: 2, bathrooms: 2, carparks: "1–2 Carparks", priceFrom: 520000 },
-      { id: "type-b", name: "Type B", sizeSqft: 920, bedrooms: 3, bathrooms: 2, carparks: "2 Carparks", priceFrom: 717000 },
+      { id: "type-a", name: "Type A", sizeSqft: 730, bedrooms: 2, bathrooms: 2, carparks: "1–2 Carparks", priceFrom: 520000,image: "/image/Trybe-Residence-sj7-subang-jaya-Layout-TypeA.png"  },
+      { id: "type-b", name: "Type B", sizeSqft: 920, bedrooms: 3, bathrooms: 2, carparks: "2 Carparks", priceFrom: 717000,image: "/image/Trybe-Residence-sj7-subang-jaya-Layout-TypeB.png"  },
     ],
         images: 
       ["/image/Trybe-Residence-sj7-subang-jaya-entrance.png"],

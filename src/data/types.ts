@@ -50,6 +50,7 @@ export interface UnitType {
   bathrooms: number;
   carparks: string;
   priceFrom: number;
+  image?: string; // optional floor plan or layout picture
 }
 
 export interface Usp {
