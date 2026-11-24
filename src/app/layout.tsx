@@ -56,7 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="border-t border-slate-200 bg-slate-50 pb-24 lg:pb-0">
           <div className="mx-auto max-w-6xl space-y-3 px-5 py-8 text-sm text-slate-500">
             <p className="font-semibold text-slate-700">
-              {AGENT.name} ({AGENT.registration}) · {AGENT.company}
+              {AGENT.name} ({AGENT.registration}) 
             </p>
             <p>
               This website is operated by an independent real estate negotiator and does not represent the
