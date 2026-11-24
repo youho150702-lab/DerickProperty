@@ -138,7 +138,7 @@ export const newProjects: NewProjectListing[] = [
       "new launch Subang Jaya",
     ],
   },
-];
+]
 
 export const newProjects: NewProjectListing[] = [
   {
