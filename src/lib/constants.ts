@@ -7,7 +7,7 @@ export const SITE_URL = (
 /** Shown in the footer. Replace with your real details (REN/REA number is required for advertising). */
 export const AGENT = {
   name: "Derick Tan",
-  registration: "REN 85479",
+  registration: "REN 85479"
 };
 
 export const fmtRM = (n: number) => `RM${n.toLocaleString("en-US")}`;
