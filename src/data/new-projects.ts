@@ -24,7 +24,7 @@ export const newProjects: NewProjectListing[] = [
     address: "SJ7 Township, Persiaran Subang, USJ 7, Subang Jaya, Selangor",
     propertyType: "Serviced Apartment",
     tenure: "Freehold",
-    price: 608800,
+    price: 520000,
     tags: ["Freehold", "TOD / Walking to LRT & BRT"],
 
     heroImage: "/image/Trybe-Residence-sj7-subang-jaya-heroimage.png",
@@ -42,8 +42,8 @@ export const newProjects: NewProjectListing[] = [
     greenCert: "GreenRE Silver Certification",
 
     units: [
-      { id: "type-a", name: "Type A", sizeSqft: 730, bedrooms: 2, bathrooms: 2, carparks: "1–2 Carparks", priceFrom: 608800 },
-      { id: "type-b", name: "Type B", sizeSqft: 920, bedrooms: 3, bathrooms: 2, carparks: "2 Carparks", priceFrom: 800800 },
+      { id: "type-a", name: "Type A", sizeSqft: 730, bedrooms: 2, bathrooms: 2, carparks: "1–2 Carparks", priceFrom: 520000 },
+      { id: "type-b", name: "Type B", sizeSqft: 920, bedrooms: 3, bathrooms: 2, carparks: "2 Carparks", priceFrom: 717000 },
     ],
         images: 
       ["/image/Trybe-Residence-sj7-subang-jaya-entrance.png"],
@@ -111,7 +111,7 @@ export const newProjects: NewProjectListing[] = [
     panelBanks: ["Maybank", "CIMB", "OCBC", "Bank Islam", "AmBank", "MBSB", "RHB", "Alliance Bank", "Public Bank"],
 
     faqs: [
-      { question: "What is the starting price of Trybe Residences @ SJ7?", answer: "Type A (730 sq.ft., 2 bedrooms) starts from RM608,800 and Type B (920 sq.ft., 3 bedrooms) starts from RM800,800 (starting SPA prices). Final nett price depends on the unit, floor and the rebate package you choose. WhatsApp for the latest price list." },
+      { question: "What is the starting price of Trybe Residences @ SJ7?", answer: "Type A (730 sq.ft., 2 bedrooms) starts from RM520,000 and Type B (920 sq.ft., 3 bedrooms) starts from RM717,000 (starting SPA prices). Final nett price depends on the unit, floor and the rebate package you choose. WhatsApp for the latest price list." },
       { question: "Is Trybe Residences freehold? What is the land title?", answer: "Yes. It is a Freehold development on Commercial Title, so ownership has no expiry date." },
       { question: "When is the expected completion date?", answer: "The expected completion is March 2031. Please refer to the SPA for the official delivery of vacant possession timeline." },
       { question: "How far is it from the LRT and BRT?", answer: "The project has a walkway link to USJ 7 Station, the LRT Kelana Jaya Line and BRT Sunway Line interchange, about 650m on foot. USJ Taipan LRT Station is about 500m away on foot." },
