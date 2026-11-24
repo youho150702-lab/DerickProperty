@@ -8,7 +8,6 @@ export const SITE_URL = (
 export const AGENT = {
   name: "Derick Tan",
   registration: "REN 85479",
-  company: "Your Company Sdn. Bhd. (000000-X)",
 };
 
 export const fmtRM = (n: number) => `RM${n.toLocaleString("en-US")}`;
