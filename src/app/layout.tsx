@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Manrope } from "next/font/google";
 import Link from "next/link";
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <p>© {new Date().getFullYear()} {SITE_NAME}. All rights reserved.</p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
